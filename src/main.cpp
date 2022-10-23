@@ -7,6 +7,6 @@ int main(int argc, char* argv[]) {
         std::cout << "Nie podano liczby" << std::endl;
     } 
     else {
-        std::cout << kwadrat(std::stof(argv[1])) << std::endl;
+        std::cout << "Kwadrat liczby wynosi: " << kwadrat(std::stof(argv[1])) << std::endl;
     }
 }
